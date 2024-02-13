@@ -47,22 +47,34 @@
     display: flex;
     align-items: center;
 
-    img {
+    img,
+    .div-img{
         height: 18px;
         width: 18px;
     }
+    .div-img{
+        background-image: url(../images/icones/arrow-down.svg);
+        background-size: cover;
+        &--is-open{
+            background-image: url(../images/icones/arrow-up.svg);
+        }
+    }
+    
 
     select {
         background-color: transparent;
         border: none;
         color: variaveis.$corTextoPrincipal;
         height: 38px;
+        appearance: none;
+        cursor: pointer;
 
         &:hover {
             color: variaveis.$corTextoSecundario;
         }
 
         option {
+            text-align: center;
             color: variaveis.$corDeFundo;
         }
     }
