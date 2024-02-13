@@ -36,6 +36,18 @@
                 overflow: hidden;
                 padding: 0 24px;
                 transition: height, .5s ease;
+
+                ul{
+                    padding-left: 20px;
+                    li{
+                        position: relative;
+                        margin-top: 20px;
+                        &::before{
+                            content: "\2022";
+                            margin-right: 8px;
+                        }
+                    }
+                }
             }
 
             &--is-open {
