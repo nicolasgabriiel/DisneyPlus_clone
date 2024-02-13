@@ -6,7 +6,7 @@ Este projeto é uma réplica do site da original da [DisneyPlus](https://www.dis
 
 ### **Recursos do Projeto:**
 
-1. Apresentação da do Produto:
+1. Apresentação do Produto:
 
 Uma seção dedicada à apresentação do produto, banner e valores.
 
@@ -41,9 +41,9 @@ Clone ou baixe o repositório do projeto.
 
 Compile o Projeto 
 
-ˋˋˋ
+```
 npm run build
- ˋˋˋ
+```
 
 Após a compilação abra o arquivo index.html
 
